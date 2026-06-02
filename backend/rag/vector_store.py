@@ -21,5 +21,8 @@ def get_collection(name: str = "elden_ring"):
     client = get_client()
     try:
         return client.get_collection(name)
-    except ValueError:
-        return client.create_collection(name)
+    except (ValueError, chromadb.errors.NotFoundError):
+        return client.create_collection(
+            name=name,
+            metadata={"hnsw:space": "cosine"},
+        )
