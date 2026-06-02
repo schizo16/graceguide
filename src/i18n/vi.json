@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "GraceGuide",
+    "tagline": "AI đồng hành cùng bạn"
+  },
+  "game": {
+    "detected": "Đã phát hiện: {{game}}",
+    "not_detected": "Không phát hiện game"
+  },
+  "chat": {
+    "placeholder": "Hỏi về game... (Enter để gửi)",
+    "send": "Gửi",
+    "thinking": "AI đang suy nghĩ...",
+    "error": "⚠️ AI không khả dụng. Hãy đảm bảo Ollama đang chạy.\n\nThử: `ollama pull llama3.1:8b`",
+    "empty_title": "🎮 GraceGuide",
+    "empty_subtitle": "Hỏi tôi về build, boss, vật phẩm, hoặc lore..."
+  },
+  "controller": {
+    "title": "🎮 Chế độ Tay Cầm",
+    "hint": "🔄 Gợi ý",
+    "area": "🗺️ Khu vực này?",
+    "build": "⚔️ Build của tôi",
+    "lore": "📖 Lore",
+    "next": "🆕 Tiếp theo?"
+  },
+  "onboarding": {
+    "welcome": "🎮 GraceGuide",
+    "subtitle": "Tìm build phù hợp cho bạn",
+    "playstyle": "Lối đánh bạn thích?",
+    "difficulty": "Độ khó mong muốn?",
+    "weapon": "Loại vũ khí yêu thích?",
+    "done": "Hoàn tất thiết lập!"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "opacity": "Độ trong suốt",
+    "spoiler": "Mức spoil"
+  },
+  "hotkeys": {
+    "toggle": "Ctrl+Alt+G để bật/tắt",
+    "hide": "Esc để ẩn"
+  }
+}

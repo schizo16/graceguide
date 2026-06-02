@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "GraceGuide",
+    "tagline": "Your AI game companion"
+  },
+  "game": {
+    "detected": "Detected: {{game}}",
+    "not_detected": "No game detected"
+  },
+  "chat": {
+    "placeholder": "Ask about the game... (Enter to send)",
+    "send": "Send",
+    "thinking": "AI is thinking...",
+    "error": "⚠️ AI is not available. Make sure Ollama is running.\n\nTry: `ollama pull llama3.1:8b`",
+    "empty_title": "🎮 GraceGuide",
+    "empty_subtitle": "Ask me about builds, bosses, items, or lore..."
+  },
+  "controller": {
+    "title": "🎮 Controller Mode",
+    "hint": "🔄 Hint me",
+    "area": "🗺️ This area?",
+    "build": "⚔️ My build",
+    "lore": "📖 Lore check",
+    "next": "🆕 What now?"
+  },
+  "onboarding": {
+    "welcome": "🎮 GraceGuide",
+    "subtitle": "Let's find your perfect build",
+    "playstyle": "Your preferred playstyle?",
+    "difficulty": "Preferred difficulty?",
+    "weapon": "Favorite weapon type?",
+    "done": "Setup complete!"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "opacity": "Opacity",
+    "spoiler": "Spoiler level"
+  },
+  "hotkeys": {
+    "toggle": "Ctrl+Alt+G to toggle",
+    "hide": "Esc to hide"
+  }
+}
