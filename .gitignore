@@ -1,0 +1,42 @@
+# Rust / Tauri
+src-tauri/target/
+src-tauri/gen/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
+
+# ChromaDB / Vector index (regenerate from data)
+backend/elden-ring/chroma/
+
+# Ollama models (user downloads)
+~/.ollama/
+
+# Build output
+*.exe
+*.msi
+*.dmg
+*.AppImage
